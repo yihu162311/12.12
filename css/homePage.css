@@ -1,0 +1,172 @@
+.text{
+	margin-top: 52px;
+	width: 100%;
+	height: 715px;
+}
+.text .midText{
+	margin: 0 auto;
+	width: 1200px;
+	height: 715px;
+	text-align: center;
+}
+.text .midText h1{
+	font-size: 30px;
+	font-weight: 300;
+	color: #475168;
+}
+.text .midText p{
+	margin:20px 0 70px 0;
+	font-size: 18px;
+	font-weight: 300;
+	color: #8a8b8b;
+}
+.text .midText section{
+	width: 100%;
+	height: 300px;
+}
+.text .midText section>div{
+	float: left;
+	padding: 0 15px;
+	width: 360px;
+	height: 210px;
+	text-align: center;
+}
+
+.text .midText section div>div{
+	position: relative;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: #f4f4f4;
+	transition: background-color 0.5s; 
+}
+.text .midText section div>p{
+	margin: 0 0 10px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+}
+.text .midText section div div>p{
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
+.text .midText section div>div:hover{
+	background-color: #F77B6F;
+}
+.text .midText section div>div:hover p{
+	color: white;
+}
+.text .midText section i{
+	position: absolute;
+	top: 40px;
+	font-size: 50px;
+	line-height: normal;
+}
+/*.responsive{
+	background: url(../img/computer.svg) no-repeat;
+}*/
+
+.text .midText .purchase{
+	margin: 70px 0;
+}
+.text .midText .purchase div{
+	float: left;
+	margin: 0 15px;
+	padding: 20px;
+	width: 68%;
+	background-color: #475168;
+}
+.text .midText .purchase div h1{
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0 0 5px 0;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+.text .midText .purchase div p{
+	margin: 0;
+	font-size: 13px;
+	color: #9eb3c4;
+	font-weight: 300;
+	line-height: 22px;
+}
+.text .midText .purchase a{
+	float: left;
+	margin: 0 15px;
+	padding: 6px 70px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 75px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: #FFFFFF;
+	background-color: #FF6C60;
+}
+.text .midText .purchase a:hover{
+	background-color: #EC6459;
+}
+
+
+/*-------------------------------*/
+.modern{
+	margin-bottom: 60px;
+	padding: 100px 0;
+	width: 100%;
+	height: 350px;
+	background-color: #f4f4f4;
+}
+.modern .contain{
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1170px;
+}
+.modern .contain .computer{
+	float: left;
+	width: 418px;
+	height: 347px;
+	background: url(../img/property-img.png);
+	background-position: center;
+}
+.modern .contain .textArea{
+	float: left;
+	padding: 0 15px;
+	margin-top: 0;
+	margin-left: 85px;
+	width: 50%;
+}
+.modern .contain .textArea h2{
+	float: left;
+	color: #475168;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.modern .contain .textArea p{
+	float: left;
+	margin: 0 0 10px;
+	line-height: 22px;
+	font-size: 13px;
+}
+.modern .contain .textArea a{
+	float: left;
+	padding: 20px 40px;
+	margin-top: 30px;
+	margin-bottom: 0;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	border-radius: 4px;
+	background: #475168;
+	transition: all .3s ease;
+}
+.modern .contain .textArea a:hover{
+	background: #F77B6F;
+}

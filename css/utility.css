@@ -1,0 +1,142 @@
+/*通用样式*/
+*{
+	margin: 0;	
+	padding: 0;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	line-height: 1;
+}
+body{
+	color: #797979;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+input{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+p{
+	margin: 0;
+}
+.clear{
+	clear: both;
+}
+header{
+	width: 100%;
+	padding-top: 120px;
+	margin-bottom: 30px;
+}
+
+header .mainNav{
+	margin: 0 auto;
+	width: 1120px;
+	overflow: hidden;
+}
+header .mainNav a{
+	line-height: 30px;
+}
+header .mainNav .logo{
+	float: left;
+	margin:5px 0 0 15px;
+	font-size: 30px;
+	color: #797979;
+}
+header .mainNav .logo span{
+	font-size: 30px;
+	color: #F2615D;
+}
+header .mainNav .nav{
+	float: right;
+}
+header .mainNav .anchor{
+	float: left;
+	margin: 0 1px;
+	padding: 10px 15px;
+	font-size: 14px;
+	color: #999999;
+}
+header .mainNav .anchor:hover{
+	color: white;
+	border-radius: 4px;
+	background-color: #F77B6F;
+}
+header .mainNav .home{
+	color: white;
+	border-radius: 4px;
+	background-color: #F77B6F;
+}
+header .mainNav .search{
+	float: left;
+	margin-top: 8px;
+	padding-left: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	border: 1px solid #EAEAEA;
+	border-radius: 4px;
+	background: url(../img/search-icon.jpg) no-repeat 6px;
+}
+
+/*底部样式*/
+footer{
+	margin-bottom: 0;
+	margin-top: 50px;
+	padding-top: 50px;
+	height: 312px;
+	color: white;
+	background-color: #475268;
+}
+footer .container{
+	margin: 0 auto;
+	width: 1120px;
+	height: 100%;
+}
+footer .container h2{
+	margin-bottom: 25px;
+	font-size: 20px;
+	font-weight: 400;
+}
+footer .container .contact{
+	float: left;
+}
+footer .container .latest{
+	float: left;
+	margin-left: 115px;
+}
+footer .container .connected{
+	margin-left: 250px;
+}
+footer .container .contact p{
+	padding: 10px 0;
+}
+footer .container .contact a{
+	color: #BC6E69;
+}
+footer .container .latest a{
+	color: #BC6E69;
+	opacity: 0;
+}
+footer .container .latest a:hover{
+	opacity: 1;
+}
+footer .container .connected{
+	float: right;
+	width: 265px;
+}
+footer .container .connected a{
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+	background-color: #505B71;
+}
+footer .container .connected a:hover{
+	color: white;
+	background-color: #F77B6F;
+}
